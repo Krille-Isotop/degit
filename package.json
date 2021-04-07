@@ -1,10 +1,10 @@
 {
-	"name": "degit",
-	"version": "2.8.4",
+	"name": "tedig",
+	"version": "1.0.0",
 	"engines": {
 		"node": ">=8.0.0"
 	},
-	"description": "Straightforward project scaffolding",
+	"description": "Straightforward project scaffolding but it works with private repo sort of",
 	"main": "dist/index.js",
 	"bin": {
 		"degit": "degit"
@@ -17,21 +17,13 @@
 		"pretest": "npm run build",
 		"prepublishOnly": "npm test"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Rich-Harris/degit.git"
-	},
 	"keywords": [
 		"scaffolding",
 		"template",
 		"git"
 	],
-	"author": "Rich Harris",
+	"author": "Isotop",
 	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Rich-Harris/degit/issues"
-	},
-	"homepage": "https://github.com/Rich-Harris/degit#readme",
 	"devDependencies": {
 		"@rollup/plugin-commonjs": "18.0.0",
 		"@rollup/plugin-node-resolve": "11.2.1",
